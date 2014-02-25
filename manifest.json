@@ -40,5 +40,12 @@
         "sha1": "0976539354615f114facaec08631eaaec1d0aafc",
         "url": "https://github.com/isimmons/taters/raw/master/taters.phar",
         "version": "0.0.7"
+    },
+    {
+        "name": "taters.phar",
+        "sha1": "2f9e32ef20278ecf82d1e2566d55432db7edecbe",
+        "url": "https://github.com/isimmons/taters/raw/master/taters.phar",
+        "version": "0.0.8"
     }
+
 ]
