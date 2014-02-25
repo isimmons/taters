@@ -1,0 +1,36 @@
+{
+    "name": "isimmons/taters",
+    "description": "My first command that uses the new isimmons/spud package",
+    "keywords": ["spud"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Simmons",
+            "email": "isimmons33@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"https://github.com/isimmons/spud"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Isimmons\\Taters\\": "src/lib"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*",
+        "illuminate/container": "4.1.*",
+        "symfony/console": "2.4.*",
+        "symfony/process": "2.4.*",
+        "isimmons/spud": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "src/vendor"
+    },
+    "minimum-stability": "dev"
+}
