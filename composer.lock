@@ -220,12 +220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/isimmons/spud.git",
-                "reference": "ca2aa81392108bb7f242229ef406a8195bc037c0"
+                "reference": "626a5afdc68143b25e0e702e2eb6b550dd9f34d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/isimmons/spud/zipball/ca2aa81392108bb7f242229ef406a8195bc037c0",
-                "reference": "ca2aa81392108bb7f242229ef406a8195bc037c0",
+                "url": "https://api.github.com/repos/isimmons/spud/zipball/626a5afdc68143b25e0e702e2eb6b550dd9f34d5",
+                "reference": "626a5afdc68143b25e0e702e2eb6b550dd9f34d5",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +256,7 @@
                 "source": "https://github.com/isimmons/spud/tree/master",
                 "issues": "https://github.com/isimmons/spud/issues"
             },
-            "time": "2014-02-25 18:26:20"
+            "time": "2014-02-25 18:45:20"
         },
         {
             "name": "justinrainbow/json-schema",

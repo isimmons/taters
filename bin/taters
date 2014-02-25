@@ -3,12 +3,12 @@
 
 require __DIR__.'/../src/vendor/autoload.php';
 
-$app = new Isimmons\Taters\Taters('taters', '0.0.6');
+$app = new Isimmons\Taters\Taters('taters', '0.0.7');
 
 $app->add('Isimmons\Taters\Console\Commands\HelloTatersCommand');
 
 $updater = new Isimmons\Spud\SpudCommand();
 $updater->setManifestUri('https://github.com/isimmons/taters/raw/master/manifest.json');
-$app->add($updater, ['enhanse-potato', 'Makes tater mucho mejor']); //when using container
+$app->add($updater, ['enhanse-potato', 'Hace las patatas mucho mejor (better taters)']);
 
 $app->run();
