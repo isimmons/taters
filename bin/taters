@@ -3,7 +3,7 @@
 
 require __DIR__.'/../src/vendor/autoload.php';
 
-$app = new Isimmons\Taters\Taters('taters', '0.0.1');
+$app = new Isimmons\Taters\Taters('taters', '0.0.2');
 
 $app->add('Isimmons\Taters\Console\Commands\HelloTatersCommand');
 
